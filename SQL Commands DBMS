@@ -26,3 +26,7 @@ DELETE FROM table_name WHERE  {CONDITION};
 DROP TABLE table_name;
 TRUNCATE TABLE table_name;
 ALTER TABLE table_name {ADD|DROP|MODIFY} column_name {data_type};
+
+
+Commands Practical Day 3:-
+
