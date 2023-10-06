@@ -38,6 +38,7 @@ select *fron salesman where Sname like 'a_' ;
 select max(salary) fron salesman;
 select min(salary) fron salesman;
 select avg(salary) fron salesman;
+select count(salary) fron salesman;
 select sum(salary) fron salesman;
 select lcase(sname) fron salesman;
 select ucase(sname) fron salesman;
