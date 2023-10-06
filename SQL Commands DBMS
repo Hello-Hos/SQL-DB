@@ -29,4 +29,6 @@ ALTER TABLE table_name {ADD|DROP|MODIFY} column_name {data_type};
 
 
 Commands Practical Day 3:-
+create table salesmanl as select *from salesman;
+
 
