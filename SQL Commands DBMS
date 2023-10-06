@@ -46,7 +46,8 @@ select ucase(sname) fron salesman;
 ***GroupBy***
 select count(class) from customers group by class;
 select count(class) , class from customers group by class;
-select avg(salary) fron salesman group by city:' noida' ;
+select avg(salary) from salesman group by city: 'noida' ;
+select avg(salary) , city from salesman group by city;
 
 
 
