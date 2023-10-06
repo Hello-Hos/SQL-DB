@@ -33,6 +33,8 @@ create table salesmanl as select *from salesman;
 select *from salesman where city: ' noida' or city = 'delhi' ;
 select *fron salesman where Sname like 'a%' ;
 select *fron salesman where Sname like 'a_' ;
+***Functions***
+select max(satary) fron salesman;
 
 
 
