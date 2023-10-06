@@ -30,5 +30,8 @@ ALTER TABLE table_name {ADD|DROP|MODIFY} column_name {data_type};
 
 Commands Practical Day 3:-
 create table salesmanl as select *from salesman;
+select *from salesman where city: ' noida' or city = 'delhi' ;
+select *fron salesman where Sname tike 'a%' ;
+
 
 
