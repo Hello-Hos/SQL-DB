@@ -33,11 +33,14 @@ create table salesmanl as select *from salesman;
 select *from salesman where city: ' noida' or city = 'delhi' ;
 select *fron salesman where Sname like 'a%' ;
 select *fron salesman where Sname like 'a_' ;
+
 ***Functions***
 select max(salary) fron salesman;
 select min(salary) fron salesman;
 select avg(salary) fron salesman;
 select sum(salary) fron salesman;
+select lcase(sname) fron salesman;
+select ucase(sname) fron salesman;
 
 
 
